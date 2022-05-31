@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#general{
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+    height: 500px;
+    border: 1px solid rgb(74, 55, 0);
+    position: relative;
+    background-color: rgb(219, 155, 72);
+}
+
+#ball{
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+#bar{
+    width: 100px;
+    height: 20px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -20px;
+}
+
+#start{
+    
+   
+    padding: 10px 30px;
+    background-color: rgb(6, 179, 0);
+    color: #fff;
+    border-radius: 10px;
+}
+
+#stop{
+    
+    top: 120px;
+    right: 300px;
+    padding: 10px 30px;
+    background-color: rgb(187, 14, 14);
+    color: #fff;
+    border-radius: 10px;
+}
+#startStop{
+    margin-top: 30px;
+    margin-left: 42%;
+}
+
+#ekran{
+    padding-top: 5px;
+    padding-bottom: 0px;
+    border: 1px solid rgb(74, 55, 0);
+    background-color: black;
+}
